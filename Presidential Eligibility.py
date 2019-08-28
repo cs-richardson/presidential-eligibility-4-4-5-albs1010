@@ -17,14 +17,14 @@ def president(name=None):
         
     else:
         print("You are not eligible to run for president.")
-        
-    if age < 35:
-        print("You are too young.")
-        
-    if citizen == "No":
-        print("You must be born in the U.S. to run for president.")
-        
-    if residency < 14:
-        print("You have not been a resident for long enough.")
+
+        if age < 35:
+            print("You are too young.")
+
+        if citizen == "No":
+            print("You must be born in the U.S. to run for president.")
+
+        if residency < 14:
+            print("You have not been a resident for long enough.")
         
 president()
